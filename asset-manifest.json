@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactlearning/static/css/main.36e13d52.css",
+    "main.js": "/reactlearning/static/js/main.6deb7e06.js",
+    "static/media/homepage.jpg": "/reactlearning/static/media/homepage.990b8537e044a7f9ef03.jpg",
+    "static/media/oct.jpg": "/reactlearning/static/media/oct.aa5a1925e7f5fba437de.jpg",
+    "static/media/crocodile.jpg": "/reactlearning/static/media/crocodile.5539040090c80a761df4.jpg",
+    "static/media/whale.jpg": "/reactlearning/static/media/whale.ed910519ae22ec311270.jpg",
+    "static/media/duck.jpg": "/reactlearning/static/media/duck.4b3507a53294f2c6c28f.jpg",
+    "static/media/dog.jpg": "/reactlearning/static/media/dog.17db5529f72156d7a84a.jpg",
+    "static/media/bird.jpg": "/reactlearning/static/media/bird.7043cbbc5c780c5a8e16.jpg",
+    "static/media/github.png": "/reactlearning/static/media/github.8fffbb3aff2808cb0077.png",
+    "static/media/account.png": "/reactlearning/static/media/account.f48e52371b217de9fcd6.png",
+    "index.html": "/reactlearning/index.html",
+    "main.36e13d52.css.map": "/reactlearning/static/css/main.36e13d52.css.map",
+    "main.6deb7e06.js.map": "/reactlearning/static/js/main.6deb7e06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36e13d52.css",
+    "static/js/main.6deb7e06.js"
+  ]
+}
