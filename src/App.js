@@ -62,8 +62,7 @@ function App  () {
 
     <Routes>
       <Route path="/" element={ <Home/>}/>
-      <Route path="/reactlearning" element={ <Home/>}/>
-      <Route path="/ReactPractice" element={ <Home/>}/>
+      <Route path="/reactweb" element={ <Home/>}/>
       <Route path="/Home" element={ <Home/>}/>
       <Route path="/Main" element={<Main products={products} onAdd={onAdd}  />}/>
       <Route path="/Cart" element={<Cart cartItems={cartItems}  onAdd={onAdd} onRemove={onRemove} onDelete={onDelete}  />}/>

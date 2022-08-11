@@ -10,14 +10,16 @@ const Login = () => {
   const [loading , setLoading] = useState(false);
   const currentUser = useAuth();
   const emailRef = useRef();
+  const emailRef2 = useRef();
   const passwordRef = useRef();
+  const passwordRef2 = useRef();
 
 
 
   const handleSignup =  async () =>{
     setLoading(true)
     try{
-      await signup(emailRef.current.value , passwordRef.current.value);
+      await signup(emailRef2.current.value , passwordRef2.current.value);
     }catch(e){
       console.log(e)
       alert("此帳號已被使用過")
@@ -47,14 +49,16 @@ const Login = () => {
     }
     setLoading(false)
   }  
+
+
   return (
-    <div className='loginAndSignUP'>
+<div className='loginAndSignUP'>
 
     
         <div className='loginDiv'>
         <p style = {{ fontSize: '30px' }}>登入</p>
       
-           使用者名稱或電子郵件:
+           電子郵件:
            <br />
            <input  type="text" ref={emailRef} className='loginInput'placeholder='Email'/>
            <br />
@@ -64,11 +68,32 @@ const Login = () => {
            <br />
             <button onClick={handleLogin} disabled={loading || currentUser !== null } >登入</button>
             <button onClick={handleLogout}  disabled={loading || currentUser == null} >登出</button>
+           
+            <p>登入帳號:{currentUser?.email}</p>
+        </div>
+
+        <div className='loginDiv'>
+        <p style = {{ fontSize: '30px' }}>註冊</p>
+      
+           電子郵件:
+           <br />
+           <input  type="text" ref={emailRef2} className='loginInput'placeholder='Email'/>
+           <br />
+           密碼: 
+           <br />
+           <input type="password" ref={passwordRef2} className='loginInput' placeholder='Password'/>
+           <br />
+        
             <button onClick={handleSignup} disabled={loading || currentUser !== null } >註冊</button>
             <p>登入帳號:{currentUser?.email}</p>
         </div>
         
-    </div>
+ </div>
+
+ 
+      
+
+
   )
 }
 
