@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactweb/static/css/main.36e13d52.css",
-    "main.js": "/reactweb/static/js/main.bfb39a71.js",
+    "main.css": "/reactweb/static/css/main.206521f5.css",
+    "main.js": "/reactweb/static/js/main.02c9e871.js",
     "static/media/homepage.jpg": "/reactweb/static/media/homepage.990b8537e044a7f9ef03.jpg",
     "static/media/oct.jpg": "/reactweb/static/media/oct.aa5a1925e7f5fba437de.jpg",
     "static/media/crocodile.jpg": "/reactweb/static/media/crocodile.5539040090c80a761df4.jpg",
@@ -12,11 +12,11 @@
     "static/media/github.png": "/reactweb/static/media/github.8fffbb3aff2808cb0077.png",
     "static/media/account.png": "/reactweb/static/media/account.f48e52371b217de9fcd6.png",
     "index.html": "/reactweb/index.html",
-    "main.36e13d52.css.map": "/reactweb/static/css/main.36e13d52.css.map",
-    "main.bfb39a71.js.map": "/reactweb/static/js/main.bfb39a71.js.map"
+    "main.206521f5.css.map": "/reactweb/static/css/main.206521f5.css.map",
+    "main.02c9e871.js.map": "/reactweb/static/js/main.02c9e871.js.map"
   },
   "entrypoints": [
-    "static/css/main.36e13d52.css",
-    "static/js/main.bfb39a71.js"
+    "static/css/main.206521f5.css",
+    "static/js/main.02c9e871.js"
   ]
 }
