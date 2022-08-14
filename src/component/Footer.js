@@ -1,21 +1,23 @@
-import React from 'react'
-import '../style/style.css'
+import React from 'react';
+import '../style/style.css';
+import linkedin from '../img/linkedin.png';
+import github from '../img/github.png';
+import cakeresume from '../img/account.png';
 
-
-const Footer = () => {
+function Footer() {
   return (
-    <div > 
-  <footer className='footer'>
-   <p className='footerText'>客服信箱：alexlu0831@gmail.com</p> 
-    <br />
-    <p className='footerText'>Copyright © 2022,  Quill </p> 
-    <br />
-    <a href="https://www.linkedin.com/feed/"><img className='footerIcon' src={require("../img/linkedin.png")} alt="" /></a> 
-    <a href="https://github.com/Quill0831/Quill0831"><img className='footerIcon' src={require("../img/github.png")} alt="" /></a> 
-    <a href="https://www.cakeresume.com/alex-lu-08591a"><img className='footerIcon' src={require("../img/account.png")} alt="" /></a>
-    </footer>
-</div>
-  )
+    <div>
+      <footer className="footer">
+        <p className="footerText">客服信箱：alexlu0831@gmail.com</p>
+        <br />
+        <p className="footerText">Copyright © 2022,  Quill </p>
+        <br />
+        <a href="https://www.linkedin.com/feed/"><img className="footerIcon" src={linkedin} alt="" /></a>
+        <a href="https://github.com/Quill0831/Quill0831"><img className="footerIcon" src={github} alt="" /></a>
+        <a href="https://www.cakeresume.com/alex-lu-08591a"><img className="footerIcon" src={cakeresume} alt="" /></a>
+      </footer>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
