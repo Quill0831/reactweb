@@ -1,22 +1,16 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .navBar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .connectIcon {
@@ -26,12 +20,8 @@ body {
 }
 
 .mainTheme {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin: 0 200px;
   margin: 20px 10px;
   -webkit-text-decoration: dotted;
@@ -59,12 +49,12 @@ a {
 
 .Aconnect {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
   margin: 20px 0 0 0;
 }
 
 .Aconnect:active {
-  color: #ead25e;
+  color: rgb(234, 210, 94);
 }
 
 .homePagePicture {
@@ -79,12 +69,11 @@ a {
 
 .footer {
   position: relative;
-  z-index: -1;
-  left: 0;
-  right: 0;
   bottom: 0;
+  width: 100%;
   text-align: center;
-  background-color: #9da2a2;
+  background-color: #f6f6f6;
+  color: #444242;
 }
 
 .footerIcon {
@@ -94,17 +83,10 @@ a {
 }
 
 .loginAndSignUP {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-flex: 20;
-      -ms-flex: 20;
-          flex: 20;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 20;
 }
 
 .loginTitle {
@@ -128,17 +110,10 @@ a {
 }
 
 .productPart {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-flex: 20;
-      -ms-flex: 20;
-          flex: 20;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 20;
 }
 
 .productCard {
@@ -194,12 +169,8 @@ div::-webkit-scrollbar-thumb {
 }
 
 .cartPart {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .productNav {
@@ -257,7 +228,7 @@ div::-webkit-scrollbar-thumb {
 .payButton {
   margin: 10px 10px 10px 45%;
   width: 250px;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: aliceblue;
   border-style: none;
   padding: 5px;
@@ -281,12 +252,12 @@ table, td, th {
 }
 
 .titlePart {
-  padding: 10px 50px 10px  50px;
+  padding: 10px 50px 10px 50px;
   white-space: nowrap;
 }
 
 .otherPart {
-  padding: 10px 50px 10px  50px;
+  padding: 10px 50px 10px 50px;
   white-space: nowrap;
 }
 
@@ -320,9 +291,7 @@ table, td, th {
 
 @media (max-width: 850px) {
   .navBar {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .mobile {
     display: block;
@@ -336,8 +305,6 @@ table, td, th {
     list-style: none;
   }
   .mainThemeExpanded {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .cartTable {
@@ -348,7 +315,6 @@ table, td, th {
     display: block;
   }
 }
-
 #toggle {
   display: none;
 }
@@ -366,10 +332,7 @@ table, td, th {
   height: 2px;
   background-color: #000000;
   position: relative;
-  -webkit-transition: top .3s ease-in-out .3s, -webkit-transform .3s ease-in-out;
-  transition: top .3s ease-in-out .3s, -webkit-transform .3s ease-in-out;
-  transition: transform .3s ease-in-out, top .3s ease-in-out .3s;
-  transition: transform .3s ease-in-out, top .3s ease-in-out .3s, -webkit-transform .3s ease-in-out;
+  transition: transform 0.3s ease-in-out, top 0.3s ease-in-out 0.3s;
   top: 0;
 }
 
@@ -378,23 +341,15 @@ table, td, th {
 }
 
 #toggle:checked + label .hamburgerContainer span:nth-child(1) {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   top: 4px;
-  -webkit-transition: top 0.3s ease-in-out, -webkit-transform .3s ease-in-out .3s;
-  transition: top 0.3s ease-in-out, -webkit-transform .3s ease-in-out .3s;
-  transition: top 0.3s ease-in-out, transform .3s ease-in-out .3s;
-  transition: top 0.3s ease-in-out, transform .3s ease-in-out .3s, -webkit-transform .3s ease-in-out .3s;
+  transition: top 0.3s ease-in-out, transform 0.3s ease-in-out 0.3s;
 }
 
 #toggle:checked + label .hamburgerContainer span:nth-child(2) {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   top: -4px;
-  -webkit-transition: top 0.3s ease-in-out, -webkit-transform .3s ease-in-out .3s;
-  transition: top 0.3s ease-in-out, -webkit-transform .3s ease-in-out .3s;
-  transition: top 0.3s ease-in-out, transform .3s ease-in-out .3s;
-  transition: top 0.3s ease-in-out, transform .3s ease-in-out .3s, -webkit-transform .3s ease-in-out .3s;
+  transition: top 0.3s ease-in-out, transform 0.3s ease-in-out 0.3s;
 }
 
 .test {
@@ -406,4 +361,7 @@ table, td, th {
 .mabileButtonDiv {
   text-align: center;
 }
-/*# sourceMappingURL=style.css.map */
+
+.faq {
+  margin-bottom: 300px;
+}/*# sourceMappingURL=style.css.map */

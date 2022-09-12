@@ -1,6 +1,7 @@
 import React from 'react';
-import { getDatabase, ref, set } from 'firebase/database';
 import { useAuth } from './firebase';
+
+
 
 function Cart(props) {
   const {
@@ -11,6 +12,7 @@ function Cart(props) {
   const itemPrice = cartItems.reduce((a, c) => a + c.price * c.qty, 0);
   const currentUser = useAuth();
 
+  // eslint-disable-next-line no-shadow
   function writeUserData(cartItems) {
     const db = getDatabase();
     set(ref(db, `users/${{ currentUser }}`), {

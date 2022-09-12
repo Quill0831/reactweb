@@ -20,10 +20,11 @@ function App() {
     const exist = cartItems.find((x) => x.id === product.id);
 
     if (exist) {
-      // 有:更改cartItem之內容，
+      // 有:更改目前cartItem之內容，
       setCartItems(cartItems.map((x) => (x.id === product.id
         ? { ...exist, qty: exist.qty + 1 } : x)));
     } else {
+      // 沒有 新增一個product 的qty為1
       setCartItems([...cartItems, { ...product, qty: 1 }]);
     }
   };

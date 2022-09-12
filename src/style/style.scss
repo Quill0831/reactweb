@@ -80,13 +80,14 @@ text-align: center;
 
 // footer style
 .footer{
-    position: relative;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
     text-align: center;
-    background-color: rgb(157, 162, 162);
+    background-color: #f6f6f6;
+     color: #444242;
+     
+
 
 }
 
@@ -94,6 +95,7 @@ text-align: center;
     height: 40px;
     width: 40px;
     margin:  0 20px;
+   
 }
 
 
@@ -443,3 +445,12 @@ margin-right: auto;
       .mabileButtonDiv{
         text-align: center;
       }
+
+
+
+      //faq part
+
+      .faq{
+        margin-bottom: 300px;
+      }
+

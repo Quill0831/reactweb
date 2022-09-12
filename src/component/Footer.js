@@ -12,9 +12,9 @@ function Footer() {
         <br />
         <p className="footerText">Copyright © 2022,  Quill </p>
         <br />
-        <a href="https://www.linkedin.com/feed/"><img className="footerIcon" src={linkedin} alt="" /></a>
-        <a href="https://github.com/Quill0831/Quill0831"><img className="footerIcon" src={github} alt="" /></a>
-        <a href="https://www.cakeresume.com/alex-lu-08591a"><img className="footerIcon" src={cakeresume} alt="" /></a>
+        <a href="https://www.linkedin.com/feed/"><img className="footerIcon" src={linkedin} alt="linkedin" /></a>
+        <a href="https://github.com/Quill0831/Quill0831"><img className="footerIcon" src={github} alt="github" /></a>
+        <a href="https://www.cakeresume.com/alex-lu-08591a"><img className="footerIcon" src={cakeresume} alt="cakeresume" /></a>
       </footer>
     </div>
   );
