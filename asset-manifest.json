@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/reactweb/static/css/main.206521f5.css",
-    "main.js": "/reactweb/static/js/main.02c9e871.js",
-    "static/media/homepage.jpg": "/reactweb/static/media/homepage.990b8537e044a7f9ef03.jpg",
+    "main.css": "/reactweb/static/css/main.fcba3e66.css",
+    "main.js": "/reactweb/static/js/main.04a6f2b3.js",
     "static/media/oct.jpg": "/reactweb/static/media/oct.aa5a1925e7f5fba437de.jpg",
     "static/media/crocodile.jpg": "/reactweb/static/media/crocodile.5539040090c80a761df4.jpg",
     "static/media/whale.jpg": "/reactweb/static/media/whale.ed910519ae22ec311270.jpg",
+    "static/media/homepage.jpg": "/reactweb/static/media/homepage.4ee91365de2888655f0b.jpg",
     "static/media/duck.jpg": "/reactweb/static/media/duck.4b3507a53294f2c6c28f.jpg",
     "static/media/dog.jpg": "/reactweb/static/media/dog.17db5529f72156d7a84a.jpg",
     "static/media/bird.jpg": "/reactweb/static/media/bird.7043cbbc5c780c5a8e16.jpg",
     "static/media/github.png": "/reactweb/static/media/github.8fffbb3aff2808cb0077.png",
     "static/media/account.png": "/reactweb/static/media/account.f48e52371b217de9fcd6.png",
     "index.html": "/reactweb/index.html",
-    "main.206521f5.css.map": "/reactweb/static/css/main.206521f5.css.map",
-    "main.02c9e871.js.map": "/reactweb/static/js/main.02c9e871.js.map"
+    "main.fcba3e66.css.map": "/reactweb/static/css/main.fcba3e66.css.map",
+    "main.04a6f2b3.js.map": "/reactweb/static/js/main.04a6f2b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.206521f5.css",
-    "static/js/main.02c9e871.js"
+    "static/css/main.fcba3e66.css",
+    "static/js/main.04a6f2b3.js"
   ]
 }
